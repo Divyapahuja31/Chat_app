@@ -1,0 +1,48 @@
+# Node dependencies
+node_modules/
+
+# Logs
+logs
+**/logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build outputs / caches
+dist/
+build/
+.cache/
+.temp/
+.tmp/
+
+# OS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Misc
+.eslintcache
+.node-repl-history
+
+# TypeScript
+*.tsbuildinfo
+
+# PnP
+.pnp/
+.pnp.js
